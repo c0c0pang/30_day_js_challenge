@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.key {
+    display: grid;
+    width: 110px;
+    height: 70px;
+    border: solid #FFE105;
+    border-radius: 5px;
+    place-items: center;
+    box-shadow: 4px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+kbd {
+    font-size: 40px;
+    font-weight: bold;
+}
+.sound{
+    font-size: 15px;
+    font-weight: bold;
+}
